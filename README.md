@@ -11,12 +11,15 @@ URL:
 
 To request NLP breakdown:
 URL:   POST http://localhost:3000/nlp-api/v1
+
 Request Body:
+```
     {
         "text": "hello world"
     }
-
+```
 Response Body example:
+```
     {
     "tags": [
         {
@@ -34,4 +37,4 @@ Response Body example:
         "world"
     ]
     }
-
+```
